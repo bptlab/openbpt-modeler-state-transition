@@ -25,7 +25,8 @@
   "scripts": {
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --ext .js --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build:icons": "node scripts/build-icons.js"
   },
   "dependencies": {
     "bpmn-font": "^0.12.1",
@@ -42,9 +43,12 @@
     "tiny-svg": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^9.35.0",
-    "eslint-config-prettier": "^10.1.5",
-    "eslint-plugin-prettier": "^5.5.4",
-    "prettier": "^3.6.2"
+    "eslint": "^10.0.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^2.7.0",
+    "fs-extra": "^11.3.3",
+    "glob": "^13.0.6",
+    "prettier": "^3.6.2",
+    "svgo": "^4.0.0"
   }
 }

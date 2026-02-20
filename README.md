@@ -8,8 +8,17 @@ The template showcases a working version of a basic Petri net modeler whose elem
 
 ## Development Setup
 
-- link to demo-repo
-- use npm link
+1. Clone this repository
+2. Navigate into the created directory
+3. Run ``npm install``
+4. Run ``npm link``
+5. Clone the [development repository](https://github.com/bptlab/openbpt-modeler-dev)
+6. Navigate into the created directory
+7. Follow the setup instructions of the development repository
+8. Run ``npm install``
+9. Run ``npm link <your_package_name>``
+
+To start the modeler, run ``npm run dev`` in the development repo's directory.
 
 ## Implementing a New Modeler
 
@@ -30,5 +39,7 @@ In most cases, it should not be necessary to modify the metamodel of the *syntac
 ### Creating a Custom Renderer
 
 ### Adding Icons
+
+To include your own icons in the palette and context pads, create plain SVG files and place them in the `assets/icons` folder. Make sure to use descriptive names, as file names will be used as icon identifiers. Afterwards, execute `npm run build:icons` to generate the image URLs that will be used by diagram.js to render the icons.
 
 ### Adapting the Modeler
