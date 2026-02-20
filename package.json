@@ -1,10 +1,10 @@
 {
-  "name": "openbpt-modeler-olc",
+  "name": "@bptlab/openbpt-modeler-olc",
   "version": "0.0.1",
   "description": "Object Lifecycle modeler based on diagram-js used in the OpenBPT platform.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bptlab/openbpt-modeler-template"
+    "url": "https://github.com/bptlab/openbpt-modeler-olc"
   },
   "author": "Maximilian König",
   "license": "MIT",
