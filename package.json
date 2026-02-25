@@ -1,18 +1,18 @@
 {
-  "name": "@bptlab/openbpt-modeler-olc",
-  "version": "0.0.1",
-  "description": "Object Lifecycle modeler based on diagram-js used in the OpenBPT platform.",
+  "name": "@bptlab/openbpt-modeler-state-transition",
+  "version": "1.0.0",
+  "description": "State Transition System modeler based on diagram-js used in the OpenBPT platform.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bptlab/openbpt-modeler-olc"
+    "url": "https://github.com/bptlab/openbpt-modeler-state-transition"
   },
   "author": "Maximilian König",
   "license": "MIT",
   "keywords": [
     "modeler",
     "modeling",
-    "template",
-    "diagram-js"
+    "diagram-js",
+    "state-transition-system"
   ],
   "main": "index.js",
   "files": [
