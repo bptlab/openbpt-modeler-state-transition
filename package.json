@@ -1,10 +1,10 @@
 {
-  "name": "@bptlab/openbpt-modeler-state-transition",
+  "name": "@bptlab/openbpt-modeler-state-transition-system",
   "version": "1.0.0",
   "description": "State Transition System modeler based on diagram-js used in the OpenBPT platform.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bptlab/openbpt-modeler-state-transition"
+    "url": "https://github.com/bptlab/openbpt-modeler-state-transition-system"
   },
   "author": "Maximilian König",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "modeler",
     "modeling",
     "diagram-js",
-    "state-transition-system"
+    "state transition system"
   ],
   "main": "index.js",
   "files": [
